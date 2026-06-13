@@ -1,0 +1,159 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px 10px;
+}
+
+.navbar{
+    width: 99%;
+   background: linear-gradient(to right, #e85d3b, #b04cff);
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px yellow;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    
+}
+
+.logo{
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0px ;
+    color: white;
+
+}
+
+.manu{
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.manu ul li{
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.manu ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.search{
+    width: 29% ;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    padding: 10px;
+}
+
+.search input{
+    width: 250px;
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 7px 0px 0px 7px;
+}
+
+.search button{
+    margin-left: -50px;
+    padding: 8px;
+    border: none;
+    background-color: #f97316;
+    color: white;
+    border-radius: 0px 7px 7px 0px;
+}
+
+.search input:focus{
+    background-color: blanchedalmond;
+}
+
+.main{                              
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 75px;
+    
+
+    
+}
+
+.cart{
+    border: 1px solid gray;
+    width: 22%;
+    height: 55vh;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+ /* for hide these util hover come */
+/* .icon,.price,.rating{
+    display: none;   
+    
+}
+  
+.cart:hover .icon, .cart:hover .price, .cart:hover .rating{
+    display: inline-block;
+}  */
+
+
+
+.cart:hover{
+     box-shadow: 2px 2px 20px grey;
+}
+
+.cart img{
+    width: 100%;
+    height: 230px;
+    border-radius: 20px;
+}
+.cart .icon{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    font-size: 20px;
+}
+
+.cart h3{
+    text-align: center;
+    font-size: 26px;
+}
+
+.cart .rating{
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    font-size: 20px;
+}
+
+.cart .price{
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+
+
+
+
