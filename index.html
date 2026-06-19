@@ -4,11 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home page</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Insert to your webpage before the </head> -->
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+    <!-- End of head section HTML codes -->
 </head>
 
 <body>
+
     <nav class="navbar">
         <div class="logo">
             Sarfraz Food Zone
@@ -29,6 +36,27 @@
 
         </div>
     </nav>
+
+     <!-- Insert to your webpage where you want to display the slider -->
+    <div class="amazingslider-wrapper" id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:800px;margin:0px auto 56px;">
+        <div class="amazingslider" id="amazingslider-1" style="display:block;position:relative;margin:0 auto; margin-top: 80px;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/360_F_286178925_8zk89O9uC5JJVPvqhvBMUpaRxp8AFXzD.jpg" alt="360_F_286178925_8zk89O9uC5JJVPvqhvBMUpaRxp8AFXzD"  title="360_F_286178925_8zk89O9uC5JJVPvqhvBMUpaRxp8AFXzD" />
+                </li>
+                <li><img src="images/ddccd5c9-0254-4d10-8f22-c5b4e9ace91d-iconic-fast-food-canes.jpg" alt="ddccd5c9-0254-4d10-8f22-c5b4e9ace91d-iconic-fast-food-canes"  title="ddccd5c9-0254-4d10-8f22-c5b4e9ace91d-iconic-fast-food-canes" />
+                </li>
+                <li><img src="images/istockphoto-1407832840-612x612.jpg" alt="istockphoto-1407832840-612x612"  title="istockphoto-1407832840-612x612" />
+                </li>
+            </ul>
+            <ul class="amazingslider-thumbnails" style="display:none;">
+                <li><img src="images/360_F_286178925_8zk89O9uC5JJVPvqhvBMUpaRxp8AFXzD-tn.jpg" alt="360_F_286178925_8zk89O9uC5JJVPvqhvBMUpaRxp8AFXzD" title="360_F_286178925_8zk89O9uC5JJVPvqhvBMUpaRxp8AFXzD" /></li>
+                <li><img src="images/ddccd5c9-0254-4d10-8f22-c5b4e9ace91d-iconic-fast-food-canes-tn.jpg" alt="ddccd5c9-0254-4d10-8f22-c5b4e9ace91d-iconic-fast-food-canes" title="ddccd5c9-0254-4d10-8f22-c5b4e9ace91d-iconic-fast-food-canes" /></li>
+                <li><img src="images/istockphoto-1407832840-612x612-tn.jpg" alt="istockphoto-1407832840-612x612" title="istockphoto-1407832840-612x612" /></li>
+            </ul>
+        <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Image Slider jQuery">Image Slider jQuery</a></div>
+        </div>
+    </div>
+    <!-- End of body section HTML codes -->
 
     <div class="main">
         <div class="cart">
@@ -102,6 +130,7 @@
             <span class="rating">🌟🌟🌟</span>
         </div>
     </div>
+
 </body>
 
 </html>

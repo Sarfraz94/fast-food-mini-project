@@ -28,8 +28,15 @@ body{
     font-size: 28px;
     font-weight: bold;
     padding: 0px ;
-    color: white;
+    color: lawngreen;
+    text-shadow: 4px 4px 5px black;
+    transition: all 0.7s linear 0.7s;
 
+}
+
+.logo:hover{
+    text-shadow: 4px 4px 20px white;
+    color:aqua;
 }
 
 .manu{
@@ -90,6 +97,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-top: 75px;
+
     
 
     
@@ -101,6 +109,7 @@ body{
     height: 55vh;
     border-radius: 20px;
     position: relative;
+    
 
 }
 
@@ -118,6 +127,7 @@ body{
 
 .cart:hover{
      box-shadow: 2px 2px 20px grey;
+     transform: translateY(-5px);
 }
 
 .cart img{
@@ -152,7 +162,6 @@ body{
     font-weight: 500;
     
 }
-
 
 
 
